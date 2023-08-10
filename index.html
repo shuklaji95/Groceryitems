@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="whole">
+        <div class="header">Grocery-Lists</div>
+        <div class="input-area">
+          <input type="text" placeholder="Add items" id="input-box" />
+          <button type="button" id="button" onclick="add()">Add</button>
+        </div>
+        <!-- no work pending -->
+        <div class="add-items" id="additems"></div>
+        <template id="template">
+          <div class="add">
+            <p id="to-be-displayed">hello</p>
+            <button type="button" id="remove-button" class="remove" onclick="removes(this)">X</button>
+          </div>
+        </template>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
